@@ -8,7 +8,7 @@ const validator = require('validatorjs');
 const knex = require('knex')({
     client: 'sqlite3',
     connection: {
-      filename: process.cwd() + '/data' + '/db.sq3',
+      filename: process.cwd() + '/db.sq3', //'/data'
     },
     useNullAsDefault: true
 });
